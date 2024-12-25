@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contiener {
+  margin: 0 auto;
+  padding: 30px 40px;
+  max-width: 1440px;
+}
+
+.img {
+  background-image: url("../public//rasm3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+.gul {
+  background-image: url("../public//gul.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 88%;
+}
+.gul2 {
+  background-image: url("../public//gul2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
